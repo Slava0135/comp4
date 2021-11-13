@@ -1,0 +1,6 @@
+int err1() {
+  int x = 100; // this is a comment!
+  for (int i = 1; i < 10; i = i + 1) {
+    x = x + i;
+  } / x = 145
+}

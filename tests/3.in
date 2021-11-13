@@ -1,0 +1,9 @@
+int in3() {
+  int x = 100;
+  int z;
+  z = 2;
+  for (int i = 1; i <= 10; i = i + 1) {
+    int y = (i - 1) * (i - 1);
+    x = x + z * y;
+  } // x = 100 + 570;
+}
